@@ -12,14 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this file. If not, see <http://www.gnu.org/licenses/>.
 """
-
-# Do not change this import statement, or add any of your own!
 from formula_tree import FormulaTree, Leaf, NotTree, AndTree, OrTree
-
-# Do not change any of the class declarations above this comment.
-
-# Add your functions here.
-
 
 def build_tree(formula):
     if len(formula) is 1 and formula in "abcdefghijklmnopqrstuvwxyz":
